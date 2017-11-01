@@ -1,0 +1,470 @@
+/*global*/
+a{
+	font-size: 16px;	
+}
+p {
+	font-size: 1.2em;
+}
+.btn{
+	font-size: 16px;
+}
+
+#Container .mix{
+    display: none;
+}
+.btn-default{
+
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.ligne{
+	background-color: #ffffff;
+	height: 5px;
+	width: 50px;
+	margin-bottom: 20px;
+}
+
+
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span,
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    background-color: #fb3a3a;
+}
+
+
+/*==================*/
+.navbar-default{
+	background-color: rgba(53,63,70,0.85);
+	height: 80px;
+	font-size: 1.1em;
+	border:none;
+	border-radius: 0px;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
+    -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.navbar-default .navbar-nav>li>a{
+	color: #ffffff;
+
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #4bcaff;
+}
+.navbar-default .navbar-nav>li>a:focus{
+	background-color: transparent;
+	color: #4bcaff;
+
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.navbar-nav{
+	margin-right: 170px;
+	margin-top: 12px;
+}
+.navbar-nav>li{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	background-color: transparent;
+	color: #4bcaff;
+}
+/*=========================*/
+/*acceuil*/
+.acceuil{
+	background: url(../img/acceuil.jpg) no-repeat;
+	background-size: 1375px 678px;
+	width: 1375px;
+	height: 678px;
+
+	font-family: "Brush Script Std";
+	font-size: 4.0em;
+	color: #ffffff;
+	text-align: center;
+}
+
+/*=========================*/
+/*service*/
+.service{
+	background-color: #4bcaff;
+	color: #ffffff;
+}
+.service .groupe{
+	margin-bottom: 55px;
+}
+
+.service h4{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.service .btn-default{
+	background-color: transparent;
+	color: #ffffff;
+	border:1px solid #ffffff;
+	border-radius: 0px;
+	float: right;
+}
+
+.service .btn-default:hover{
+	background-color: #ffffff;
+	color: #4bcaff;
+}
+
+/*=========================*/
+
+/*portfolio*/
+
+.portfolio .btn-default{
+	background-color: #ffffff;
+	color: #4bcaff;
+	border: 1px solid #4bcaff;
+	border-radius: 0px;
+}
+
+.portfolio .btn-default:hover{
+	background-color: #4bcaff;
+	color: #ffffff;
+	border: 1px solid #4bcaff;
+
+}
+.portfolio .btn-default:focus{
+	background-color: #4bcaff;
+	color: #ffffff;
+	border: 1px solid #4bcaff;
+}
+.portfolio .cat{
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.plus .btn-default{
+	background-color: #4bcaff;
+	color: #ffffff;
+	border: 1px solid #4bcaff;
+	border-radius: 0px;
+	margin-top: 10px;
+}
+
+.plus .btn-default:hover{
+	background-color: #ffffff;
+	color: #4bcaff;
+	border: 1px solid #4bcaff;
+
+}
+
+/*=========================*/
+
+/*about*/
+.about{
+	background-color: #4bcaff;
+	color: #ffffff;
+	padding-top: 70px;
+	padding-bottom: 70px;	
+}
+.about p{
+	font-size: 1.2em;
+}
+.about #about{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.about img{
+	margin-top: -40px;
+	height: 400px;
+}
+
+/*=========================*/
+
+/*contact*/
+.contact{
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: 1375px 678px;
+  color: #ffffff;
+  width: 1375px;
+  height: 678px;
+  padding-left: 30px;
+  padding-top: 40px;
+
+}
+
+.contact h3{
+	color: #ffffff;
+}
+.contact i{
+	padding-bottom: 8px;
+	padding-right: 5px;
+}
+
+.contact li{
+	list-style: none;
+}
+.contact label{
+	color: #ffffff;
+}
+
+.contact input{
+	height: 45px;
+}
+.contact input,.contact textarea{
+	background-color: transparent;
+	color: #ffffff;
+	border-radius: 0px;
+	border:2px solid #ffffff;
+	margin-bottom: 20px;
+}
+.contact input:focus ,.contact textarea:focus{
+	border:3px solid #4bcaff;
+}
+.contact p{
+	margin-top: 20px;
+}
+
+.contact textarea {
+	height: 150px;
+}
+.text label{
+	margin-left: 13px;
+}
+.contact .btn-default{
+	background-color: #4bcaff;
+	border-radius: 0px;
+	border:2px solid #4bcaff;
+	color: #ffffff;
+	width: 250px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.contact .btn-default:hover{
+	background-color: transparent;
+	color: #4bcaff;
+	border: 2px solid #4bcaff;
+}
+
+.contact .zyt{
+	background: #4bcaff;
+	width: 1375;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	margin-left: -30px;
+	padding-top: 5px;
+
+}
+
+/*=========================*/
+
+/*Modal*/
+.modal p{
+	padding: 10px 10px;
+}
+
+/*section portfolio*/
+.img1{
+  background: url(../img/port1.jpg) no-repeat;
+  background-size: 550px 250px;
+  color: #ffffff;
+  width: 550px;
+  height: 250px;
+  margin-left: 10px;
+
+}
+
+.img2{
+  background: url(../img/salle1.jpg) no-repeat;
+  background-size: 550px 250px;
+  color: #ffffff;
+  width: 550px;
+  height: 250px;
+  margin-left: 10px;
+
+}
+
+.img3{
+  background: url(../img/chambre1.jpg) no-repeat;
+  background-size: 550px 250px;
+  color: #ffffff;
+  width: 550px;
+  height: 250px;
+  margin-left: 10px;
+
+}
+
+.img4{
+  background: url(../img/chambre2.jpg) no-repeat;
+  background-size: 550px 250px;
+  color: #ffffff;
+  width: 550px;
+  height: 250px;
+  margin-left: 10px;
+
+}
+
+.img5{
+  background: url(../img/salle2.jpg) no-repeat;
+  background-size: 550px 250px;
+  color: #ffffff;
+  width: 550px;
+  height: 250px;
+  margin-left: 10px;
+
+}
+
+.img6{
+  background: url(../img/port11.jpg) no-repeat;
+  background-size: 550px 250px;
+  color: #ffffff;
+  width: 550px;
+  height: 250px;
+  margin-left: 10px;
+
+}
+
+/*==========================================devis====================================================*/
+.devis{
+	padding: 20px 0px 30px 30px;
+}
+.head{
+	background: url(../img/port6.jpg) no-repeat;
+	background-size: 1366px 500px;
+	width: 1366px;
+	height: 500px;
+
+	font-family: "Brush Script Std";
+	font-size: 5.0em;
+	color: #87390e;
+	text-align: center;
+	padding-top: 300px;
+}
+
+.devis .form-group {
+	padding-top: 15px;
+}
+
+.devis .btn-default{
+	background-color: #4bcaff;
+	border-radius: 0px;
+	border:1px solid #4bcaff;
+	color: #ffffff;
+	width: 250px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.devis .btn-default:hover{
+	background-color: transparent;
+	color: #4bcaff;
+	border: 1px solid #4bcaff;
+}
+
+.devis .zyt{
+	background: #4bcaff;
+	color: #ffffff;
+	width: 1375px;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-left: -30px;
+	padding-top: 5px;
+}
+
+/*==========================================Login====================================================*/
+
+.login{
+	background: url(../img/login.jpg) no-repeat;
+	background-size: 1366px 667px;
+	width: 1366px;
+	height: 667px;
+
+	color: #ffffff;
+	font-size: 16px;
+
+	padding-top: 80px;
+	padding-left: 30px;
+
+	cursor: red;
+}
+
+.login i{
+	color: #ffffff;
+	padding-left: 230px;
+	padding-bottom: 40px;
+}
+
+.login input{
+	background: transparent;
+	color: #ffffff;
+	font-size: 16px;
+	border:2px solid #ffffff;
+}
+
+.login .btn:hover{
+	color: #4bcaff;
+	background: transparent;
+	border-color: #4bcaff;
+}
+
+
+/*========================================================================*/
+.admin{
+	font-size: 16px;
+	padding-top: 60px;
+}
+
+.admin #tab{
+	font-weight: bolder;
+
+}
+
+.panel-default > .panel-heading{
+	background-color: #4bcaff;
+	color: #ffffff;
+	text-align: center;
+}
+
+.admin .btn{
+	color: #ffffff;
+	background: #4bcaff;
+	border-color: #4bcaff;
+}
+
+.admin .btn:hover{
+	color: #4bcaff;
+	background: transparent;
+	border-color: #4bcaff;
+}
+
+
+
+
+

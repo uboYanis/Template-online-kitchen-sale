@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Devis</title>
+	<!-- bootstrap.css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- style.css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- font-awesome.css -->
+	<link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">  
+      	<li data-menuanchor="Acceuil"><a href="index.html#Acceuil">Acceuil</a></li>
+		<li data-menuanchor="Service"><a href="index.html#Service">Service</a></li>
+		<li data-menuanchor="Galerie"><a href="index.html#Galerie">Galerie</a></li>
+		<li data-menuanchor="propos"><a href="index.html#propos">A propos</a></li>   
+		<li data-menuanchor="Contact"><a href="index.html#Contact">Contact</a></li>     
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">visite 3D <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="visite/Magibois.html" target="_blanck">cuisine de luxe</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="visite/cuisine.html" target="_blanck">cuisine moderne</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<div class="head">
+		<caption>
+			<span>
+				faire votre devis gratuitement en ligne
+			</span>
+		</caption>
+	</div>
+
+<div class="devis">
+	<div class="container">
+
+		<form>
+		<h3>Information personnelle</h3>
+			<div class="row">
+				<div class="form-group col-md-offset-1 col-md-4">
+					<label>Nom</label>
+					<input type="text" class="form-control" />
+				</div>	
+
+				<div class="form-group col-md-5">
+					<label>Prénom</label>
+					<input type="text" class="form-control" />
+				</div>
+
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="form-group col-md-offset-1 col-md-5">
+					<label>Mail</label>
+					<input type="email" class="form-control" />
+				</div>	
+
+				<div class="form-group col-md-4">
+					<label>Adresse</label>
+					<input type="text" class="form-control" />
+				</div>	
+
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="form-group col-md-offset-1 col-md-4">
+					<label>Mobile</label>
+					<input type="number" class="form-control" maxlength="10" />
+				</div>	
+
+				<div class="form-group col-md-5">
+					<label>Wilaya</label>
+					<input type="text" class="form-control" />
+				</div>		
+
+			</div><!-- /.row -->
+
+				<h3>Information sur le projet</h3>
+
+			<div class="row">
+				<div class="form-group col-md-offset-1 col-md-5">
+					<label for="sel1">Type de projet</label>
+					<select class="form-control" id="sel1">
+						<option>Construction</option>
+						<option>Rénovation</option>
+					</select>
+				</div>	
+
+				<div class="form-group col-md-4">
+					<label>Surface (M²)</label>
+					<input type="number" class="form-control" />
+				</div>		
+
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="form-group col-md-offset-1 col-md-4">
+					<label for="sel1">Forme</label>
+					<select class="form-control" id="sel1">
+						<option>Cuisine en U</option>
+						<option>Cuisine en L</option>
+						<option>Cuisine linière</option>
+						<option>Autres</option>
+					</select>
+				</div>	
+
+				<div class="form-group col-md-5">
+					<label>Budget maximum (DA)</label>
+					<input type="number" class="form-control" />
+				</div>		
+
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="form-group col-md-offset-1 col-md-5">
+					<label for="sel1">Type</label>
+					<select class="form-control" id="sel1">
+						<option>Bois dure massif. Hêtre, chène, frène</option>
+						<option>High gloze</option>
+					</select>
+				</div>	
+
+				<div class="form-group col-md-4">
+					<label for="sel1">Avec un îlot</label>
+					<select class="form-control" id="sel1">
+						<option>Oui</option>
+						<option>Non</option>
+					</select>
+				</div>		
+
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="form-group col-md-offset-1 col-md-4">
+					<label for="sel1">Delai souhaité</label>
+					<select class="form-control" id="sel1">
+						<option>1 à 3 mois</option>
+						<option>3 à 9 mois</option>
+						<option>> 9 mois</option>
+					</select>
+				</div>	
+
+				<div class="form-group col-md-5">
+					<label for="sel1">Electromenager</label>
+					<select class="form-control" id="sel1">
+						<option>Oui</option>
+						<option>Non</option>
+					</select>
+				</div>		
+
+			</div><!-- /.row -->
+			<div class="form-group row">
+			<div class="col-md-offset-1 col-md-9">
+				<label>Message</label>
+				<textarea class="form-control" placeholder="Votre Message"></textarea>
+			</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<button class="btn btn-default"> envoyer </button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+<div class="zyt">
+	<i class="fa fa-copyright" > ZYT </i>
+</div>
+
+
+
+
+
+</div><!-- /.devis -->
+
+
+<!-- jquery -->
+<script type="text/javascript" src="js/jq.js"></script>
+<!-- bootstrap.js -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

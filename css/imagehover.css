@@ -1,0 +1,111 @@
+.content1{
+  display: inline-block;
+  background: url(../img/port1.jpg) no-repeat;
+  background-size: 370px 200px;
+  width: 370px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.content2 {
+  display: inline-block;
+  background: url(../img/salle1.jpg) no-repeat;
+  background-size: 370px 200px;
+  width: 370px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.content3 {
+  display: inline-block;
+  background: url(../img/chambre1.jpg) no-repeat;
+  background-size: 370px 200px;
+  width: 370px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.content4 {
+  display: inline-block;
+  background: url(../img/chambre2.jpg) no-repeat;
+  background-size: 370px 200px;
+  width: 370px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.content5 {
+  display: inline-block;
+  background: url(../img/salle2.jpg) no-repeat;
+  background-size: 370px 200px;
+  width: 370px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.content6 {
+  display: inline-block;
+  background: url(../img/port11.jpg) no-repeat;
+  background-size: 370px 200px;
+  width: 370px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+
+/*==================================================================================*/
+
+
+.box {
+  display: inline-block;
+  width: 370px;
+  height: 200px;
+  transition: all ease-in 0.3s;
+}
+
+.box:hover { background-color: rgba(0,0,0, 0.5); }
+
+.box:hover .image-caption {
+  background-color: transparent;
+  margin-top: 40px;
+}
+
+.image-caption {
+  position: absolute;
+  display: inline-block;
+  width: 370px;
+  text-align: center;
+  padding: 20px 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.8);
+  margin-top: 131px;
+  background-color: rgba(0,0,0,0.7);
+  transition: all ease-in 0.3s;
+}
+
+.desc {
+  position: absolute;
+  width: 370px;
+  margin-top: 85px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.4;
+  color: transparent;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0);
+  transition: all ease-in 0.3s;
+}
+
+.see-more { text-decoration: underline; }
+
+.on {
+  color: #ffffff;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.8);
+}
